@@ -16,7 +16,7 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-uri = '**Confidential**'
+uri = '/nCoV/api/overall'
 client = MongoClient(uri)
 db = client['2019-nCoV']
 
